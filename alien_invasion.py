@@ -12,9 +12,7 @@ class AlienInvasion:
         self.clock = pygame.time.Clock()
         self.settings = Settings()
 
-        self.screen = pygame.display.set_mode((0,0), pygame.FULLSCREEN) # set.mode() creates a display window and needs a tuple with the dimensions of the game window
-        self.settings.screen_width = self.screen.get_rect().width
-        self.settings.screen_height = self.screen.get_rect().height
+        self.screen = pygame.display.set_mode((self.settings.screen_width, self.settings.screen_height)) # set.mode() creates a display window and needs a tuple with the dimensions of the game window
         pygame.display.set_caption("Alien Invasion")
 
         self.ship = Ship(self)
