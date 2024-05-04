@@ -10,10 +10,11 @@ class Settings:
         self.bg_color = (255, 255, 255)
 
         # Ship settings
-        self.ship_speed = 1.5 # Adjust the ship's speed 1.5 pixel per iteration
+        self.ship_speed = 3.5 # Adjust the ship's speed 1.5 pixel per iteration
+        self.ship_limit = 3
 
         # Bullet settings
-        self.bullet_speed = 2.0
+        self.bullet_speed = 3
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = (60, 60, 60)
@@ -21,6 +22,6 @@ class Settings:
 
         # Alien settings
         self.alien_speed = 1.0 # Adjust the alien's speed 1.0 pixel per iteration
-        self.fleet_drop_speed = 10 # Adjust the fleet's speed 10 pixel per iteration
+        self.fleet_drop_speed = 50 # Adjust the fleet's speed 10 pixel per iteration
         # fleet_direction of 1 represents right; -1 represents left 
         self.fleet_direction = 1
