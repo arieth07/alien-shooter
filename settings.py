@@ -6,11 +6,11 @@ class Settings:
 
         # Screen settings
         self.screen_width = 1200
-        self.screen_height = 800
+        self.screen_height = 700
         self.bg_color = (255, 255, 255)
 
         # Ship settings
-        self.ship_speed = 4.5 # Adjust the ship's speed 1.5 pixel per iteration
+        self.ship_speed = 12.5 # Adjust the ship's speed 1.5 pixel per iteration
         self.ship_limit = 3
 
         # Bullet settings
@@ -21,7 +21,7 @@ class Settings:
         self.bullets_allowed = 4
 
         # Alien settings
-        self.alien_speed = 3 # Adjust the alien's speed 1.0 pixel per iteration
+        self.alien_speed = 0.5 # Adjust the alien's speed 1.0 pixel per iteration
         self.fleet_drop_speed = 5 # Adjust the fleet's speed 10 pixel per iteration
         # fleet_direction of 1 represents right; -1 represents left 
         self.fleet_direction = 1
@@ -38,7 +38,7 @@ class Settings:
         """Initialize settings that change throughout the game."""
         self.ship_speed = 12.5
         self.bullet_speed = 10.5
-        self.alien_speed = 3
+        self.alien_speed = 1
 
         # fleet_direction of 1 represents right; -1 represents left
         self.fleet_direction = 1
