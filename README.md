@@ -38,3 +38,8 @@ python alien_invasion.py
 - Press 'Q' to quit the game.
 
 Enjoy playing!
+
+## 📹 Demo
+
+You can watch a short gameplay screencast here:  
+🎥 [Watch on YouTube](https://youtu.be/HG6pBae8zT4)
